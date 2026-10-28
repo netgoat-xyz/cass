@@ -1,0 +1,18 @@
+# build output
+/cas-api
+*.exe
+*.test
+*.out
+
+# runtime state (CAS_STATE_FILE defaults here)
+/data/
+
+# env
+.env
+.env.*
+!.env.example
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
